@@ -15,9 +15,9 @@ public class proceedToCheckout extends AddToCart {
 	public void checkout() {
 		driver.findElement(By.xpath("//a[@id='nav-cart']")).click();
 		driver.findElement(By.xpath("//input[@value='Proceed to checkout']")).click();
-		driver.findElement(By.id("ap_email")).sendKeys("9951186498");
+		driver.findElement(By.id("ap_email")).sendKeys("********");
 		driver.findElement(By.xpath("//input[@id='continue']")).click();
-		driver.findElement(By.id("ap_password")).sendKeys("anil2179");
+		driver.findElement(By.id("ap_password")).sendKeys("HHHHH");
 		driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
 		driver.findElement(By.xpath("/html[1]/body[1]/div[5]/div[2]/div[1]/form[1]/div[1]/div[1]/div[2]/span[1]/a[1]")).click();
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
